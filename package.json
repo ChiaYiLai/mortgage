@@ -1,0 +1,26 @@
+{
+  "name": "mortgage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "deploy": "npm run build && gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pug": "^3.0.3",
+    "sass": "^1.86.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "@vue/tsconfig": "^0.7.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1",
+    "vite-plugin-prerender": "^1.0.8",
+    "vue-tsc": "^2.2.8"
+  }
+}
