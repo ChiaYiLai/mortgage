@@ -142,7 +142,7 @@ const formatNumber = (num: number): string => {
           td 飲食費、近期要繳的所得稅、汽車稅、保險費、小孩的學費等等。
   footer.footer-main
     address
-      a(href="https://chiayilai.github.io/resume/" target="_blank") Powered by Chia Yi Lai
+      a(href="https://chiayilai.github.io/resume/" target="_blank") Developed by Chia Yi Lai
 </template>
 
 <style scoped></style>
